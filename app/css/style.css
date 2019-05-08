@@ -1,0 +1,28 @@
+#home-body {
+  color: white;
+  width: 100%;
+  background-image: url("../images/bikini-bottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#survey-body {
+  color: white;
+  width: 100%;
+  background-image: url("../images/water-surface.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-jt {
+  background: linear-gradient(
+    to right,
+    rgba(75, 65, 155, 1),
+    rgba(75, 65, 155, 0.7)
+  );
+}
+
+#survey-section {
+  background-color: rgba(75, 65, 155, 0.75);
+  text-shadow: 1px 1px 4px black;
+}
