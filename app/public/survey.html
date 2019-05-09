@@ -218,12 +218,12 @@
                     scores: scoresArray
                 }
 
-                console.log(userInfo);
+                //console.log(userInfo);
 
                 $.post("/api/survey", userInfo)
                 .done(function(response){
-                    console.log("SUCCESS! - ");
-                    console.log(response);
+                    //console.log("SUCCESS! - ");
+                    //console.log(response);
                     $("#modalTitle").text(userInfo.name + "'s New Friend");
                     $("#friendImage").attr("src", response.photo);
                     $("#friendName").text(response.name);
