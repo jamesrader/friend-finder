@@ -1,12 +1,12 @@
 var data = [
   {
     name: "Spongebob Squarepants",
-    photo: "../images/spongebob2.png",
+    photo: "../images/spongebob.png",
     scores: [5, 5, 3, 5, 4, 1, 4, 3, 3, 1]
   },
   {
     name: "Patrick Star",
-    photo: "../images/spongebob2.png",
+    photo: "../images/patrick.png",
     scores: [1, 3, 3, 5, 1, 2, 5, 2, 5, 1]
   },
   {
