@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Bikini Bottom Friend Finder - Survey</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bikini Bottom Friend Finder - Survey</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
@@ -26,212 +23,231 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../css/style.css" />
-    </head>
-    <body id="survey-body">
-        <div class="container">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div class="container" id="survey-section">
-            <br>
-                <h2 class="display-4">Survey Questions</h2>
-                <hr>
-                <h4><strong>About You</strong></h4>
-                <form name="friendSurvey">
-                        <div class="form-group col-lg-6 col-md-9 col-12">
-                          <label for="inputName">Name (required)</label>
-                          <input type="text" class="form-control" id="inputName">
-                        </div>
-                        <div class="form-group col-lg-6 col-md-9 col-12">
-                          <label for="inputPhotoLink">Link to Photo Image (required)</label>
-                          <input type="text" class="form-control" id="inputPhotoLink">
-                        </div>
-                        <hr>
-                        <div class="form-group col-12">
-                            <h4>Question 1</h4>
-                                <label for="answer1">Your mind is always buzzing with unexplored ideas and plans.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer1">
-                                  <option value="0" selected disabled>Select an option</option>
-                                  <option>1 (Strongly disagree)</option>
-                                  <option>2</option>
-                                  <option>3</option>
-                                  <option>4</option>
-                                  <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 2</h4>
-                                <label for="answer2">You love your work more than life itself.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer2">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 3</h4>
-                                <label for="answer3">You are skilled in one or more martial arts.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer3">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 4</h4>
-                                <label for="answer4">You are OK with being underwater for extended periods of time.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer4">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 5</h4>
-                                <label for="answer5">You can speak the language of sea snails.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer5">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 6</h4>
-                                <label for="answer6">You are highly motivated by money.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer6">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 7</h4>
-                                <label for="answer7">You are sometimes slow to understand new concepts.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer7">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 8</h4>
-                                <label for="answer8">You appreciate the arts and the "finer things" in life.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer8">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 9</h4>
-                                <label for="answer9">It is often difficult for you to relate to other people’s feelings.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer9">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <div class="form-group col-12">
-                            <h4>Question 10</h4>
-                                <label for="answer10">You rarely get carried away by fantasies and ideas.</label>
-                                <select class="form-control col-lg-3 col-md-4 col-8" id="answer10">
-                                    <option value="0" selected disabled>Select an option</option>
-                                    <option>1 (Strongly disagree)</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5 (Strongly agree)</option>
-                                </select>
-                        </div>
-                        <br>
-                        <div class="row col-12">
-                        <div class="col-2">
-                        <button type="submit" class="btn btn-primary" id="submitButton">Find a Friend</button>
-                        </div>
-                        <div class="col-7 col-sm-2 col-md-1"></div>
-                        <div class="col-2">
-                                <a role="button" href="/" class="btn btn-secondary" id="homeButton">Home</a>
-                                </div>
-                        </div>
-                        <br>
-                      </form>
-                      </div>
-                      <!-- Modal -->
-<div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="modalTitle"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img src="" id="friendImage"><img>
-        </div>
-        <div class="modal-footer">
-            <div class="container text-center text-info">
-            <span><h3 id="friendName"></h3></span>
+  </head>
+  <body id="survey-body">
+    <div class="container">
+      <div class="container" id="survey-section">
+        <br />
+        <h2 class="display-4">Survey Questions</h2>
+        <hr />
+        <h4><strong>About You</strong></h4>
+        <form name="friendSurvey">
+          <div class="form-group col-lg-6 col-md-9 col-12">
+            <label for="inputName">Name (required)</label>
+            <input type="text" class="form-control" id="inputName" />
+          </div>
+          <div class="form-group col-lg-6 col-md-9 col-12">
+            <label for="inputPhotoLink">Link to Photo Image (required)</label>
+            <input type="text" class="form-control" id="inputPhotoLink" />
+          </div>
+          <div class="row col-12">
+            <p class="text-danger col-12" id="emailWarning">
+              <strong
+                >This doesn't appear to be a valid image. Please try
+                again.</strong
+              >
+            </p>
+          </div>
+          <hr />
+          <div class="form-group col-12">
+            <h4>Question 1</h4>
+            <label for="answer1"
+              >Your mind is always buzzing with unexplored ideas and
+              plans.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer1">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 2</h4>
+            <label for="answer2"
+              >You love your work more than life itself.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer2">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 3</h4>
+            <label for="answer3"
+              >You are skilled in one or more martial arts.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer3">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 4</h4>
+            <label for="answer4"
+              >You are OK with being underwater for extended periods of
+              time.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer4">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 5</h4>
+            <label for="answer5"
+              >You can speak the language of sea snails.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer5">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 6</h4>
+            <label for="answer6">You are highly motivated by money.</label>
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer6">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 7</h4>
+            <label for="answer7"
+              >You are sometimes slow to understand new concepts.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer7">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 8</h4>
+            <label for="answer8"
+              >You appreciate the arts and the "finer things" in life.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer8">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 9</h4>
+            <label for="answer9"
+              >It is often difficult for you to relate to other people’s
+              feelings.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer9">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="form-group col-12">
+            <h4>Question 10</h4>
+            <label for="answer10"
+              >You rarely get carried away by fantasies and ideas.</label
+            >
+            <select class="form-control col-lg-3 col-md-4 col-8" id="answer10">
+              <option value="0" selected disabled>Select an option</option>
+              <option>1 (Strongly disagree)</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5 (Strongly agree)</option>
+            </select>
+          </div>
+          <div class="row col-12">
+            <p class="text-danger col-12" id="warning">
+              <strong>Please fill out all fields before submitting.</strong>
+            </p>
+          </div>
+          <div class="row col-12">
+            <div class="col-5">
+              <button type="submit" class="btn btn-primary" id="submitButton">
+                Find a Friend
+              </button>
             </div>
+            <div class="col-3 col-sm-2 col-md-1"></div>
+            <div class="col-4">
+              <a
+                role="button"
+                href="/"
+                class="btn btn-secondary"
+                id="homeButton"
+                >Home</a
+              >
+            </div>
+          </div>
+          <br />
+        </form>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="resultModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="modalTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTitle"></h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"><img src="" id="friendImage" /><img /></div>
+            <div class="modal-footer">
+              <div class="container text-center text-info">
+                <span><h3 id="friendName"></h3></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>        
-        
-        <script>
-            $("#submitButton").on('click', function(event){
-                event.preventDefault();
-                var scoresArray=[];
-                var value=0;
-                var j = 1;
-                for (i=1; i<11; i++){
-                    var scoreValue = parseInt($("#answer" + i.toString()).val().slice(0,1));
-                    scoresArray.push(parseInt(scoreValue));
-                }
-                var userInfo = {
-                    name: $("#inputName").val(),
-                    photo: $("#inputPhotoLink").val(),
-                    scores: scoresArray
-                }
-
-                //console.log(userInfo);
-
-                $.post("/api/survey", userInfo)
-                .done(function(response){
-                    //console.log("SUCCESS! - ");
-                    //console.log(response);
-                    $("#modalTitle").text(userInfo.name + "'s New Friend");
-                    $("#friendImage").attr("src", response.photo);
-                    $("#friendName").text(response.name);
-                    $("#resultModal").modal("show");
-
-                    //document.friendSurvey.reset();
-                });
-            });
-        </script>
-    </body>
+    <script src="../js/app.js"></script>
+  </body>
 </html>
